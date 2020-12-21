@@ -1,0 +1,24 @@
+* { padding: 0; margin: 0; -webkit-box-sizing: border-box; box-sizing: border-box; }
+
+.header__left { display: -webkit-box; display: -ms-flexbox; display: flex; -webkit-box-align: center; -ms-flex-align: center; align-items: center; }
+.header__left a { -webkit-box-flex: 1; -ms-flex-positive: 1; flex-grow: 1; }
+.header__left .categories { -webkit-box-flex: 1; -ms-flex-positive: 1; flex-grow: 1; }
+.header__left form { -webkit-box-flex: 5; -ms-flex-positive: 5; flex-grow: 5; }
+.header__left form .input-group { position: relative; }
+.header__left form .input-group .form-control { border-radius: 0.25rem; -webkit-box-shadow: none; box-shadow: none; padding-right: 40px; font-weight: 300; }
+.header__left form .input-group .form-control:focus { border-color: #ced4da; }
+.header__left form i { position: absolute; right: 0; top: 50%; -webkit-transform: translateY(-50%); transform: translateY(-50%); padding: 10px; cursor: pointer; z-index: 9; border: 1px solid transparent; -webkit-transition: 0.2s; transition: 0.2s; color: #ec5252; }
+.header__left form i:hover { background-color: #ec5252; color: #fff; border: 1px solid #ec5252; border-radius: 0 0.25rem 0.25rem 0; }
+
+.header__right .navbar-nav .nav-link { color: #505763; }
+.header__right .navbar-nav .nav-link:hover { color: #505763; background-color: #fff; }
+.header__right .btn-login { background-color: #fff; }
+.header__right .btn-login:hover { color: #000; }
+
+#carousel { background-image: url("../../img/cover.jpg"); height: 500px; background-repeat: no-repeat; background-size: cover; background-position: center; display: -webkit-box; display: -ms-flexbox; display: flex; -webkit-box-align: center; -ms-flex-align: center; align-items: center; }
+#carousel form { -webkit-box-flex: 5; -ms-flex-positive: 5; flex-grow: 5; }
+#carousel form .input-group { position: relative; }
+#carousel form .input-group .form-control { border-radius: 0.25rem; -webkit-box-shadow: none; box-shadow: none; padding-right: 40px; font-weight: 300; }
+#carousel form .input-group .form-control:focus { border-color: #ced4da; }
+#carousel form i { position: absolute; right: 0; top: 50%; -webkit-transform: translateY(-50%); transform: translateY(-50%); padding: 10px; cursor: pointer; z-index: 9; border: 1px solid transparent; -webkit-transition: 0.2s; transition: 0.2s; color: #ec5252; }
+#carousel form i:hover { background-color: #ec5252; color: #fff; border: 1px solid #ec5252; border-radius: 0 0.25rem 0.25rem 0; }

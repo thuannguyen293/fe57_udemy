@@ -1,0 +1,28 @@
+.header__left {
+  display: flex;
+  align-items: center;
+  a {
+    flex-grow: 1;
+  }
+  .categories {
+    flex-grow: 1;
+  }
+  @include search();
+}
+.header__right {
+  .navbar-nav {
+    .nav-link {
+      color: $color-4;
+      &:hover {
+        color: $color-4;
+        background-color: #fff;
+      }
+    }
+  }
+  .btn-login {
+    background-color: #fff;
+    &:hover {
+      color: #000;
+    }
+  }
+}

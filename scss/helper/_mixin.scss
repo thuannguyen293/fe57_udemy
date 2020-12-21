@@ -1,0 +1,35 @@
+@mixin search() {
+  form {
+    flex-grow: 5;
+    .input-group {
+      position: relative;
+      .form-control {
+        border-radius: 0.25rem;
+        box-shadow: none;
+        padding-right: 40px;
+        font-weight: 300;
+        &:focus {
+          border-color: #ced4da;
+        }
+      }
+    }
+    i {
+      position: absolute;
+      right: 0;
+      top: 50%;
+      transform: translateY(-50%);
+      padding: 10px;
+      cursor: pointer;
+      z-index: 9;
+      border: 1px solid transparent;
+      transition: 0.2s;
+      color: $color-1;
+      &:hover {
+        background-color: $color-1;
+        color: $color-white;
+        border: 1px solid $color-3;
+        border-radius: 0 0.25rem 0.25rem 0;
+      }
+    }
+  }
+}
